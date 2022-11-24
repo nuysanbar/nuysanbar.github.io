@@ -1,0 +1,452 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(2, 16, 24);
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(248, 207, 131);
+    color:rgb(243, 103, 126);
+    font-size: large;
+}
+* {
+    scroll-behavior: smooth;
+  }
+/* Styling navigation */
+.bachelor{
+    color:white;
+}
+@keyframes animateWelcome {
+    from{
+        color: rgb(248, 207, 131);
+    }
+    to{
+        color: none;
+    }
+}
+@media only screen and (max-width:700px){
+    .welcome{
+        display: none;
+    }
+}
+#name{
+    margin: 0;
+    line-height: 2.6rem;
+    display: inline-block;
+    max-width: 500px;
+    font-weight: 600;
+    font-size: xx-large;
+    color:lightgray;
+}
+.services ,.projectsTitle{
+    text-align: center;
+    color:white;
+}
+nav{
+    padding:20px 20px 10px 0px;
+    text-align:center;
+}
+nav a {
+    padding:10px 15px 5px 0;
+    text-decoration: none;
+    color:rgb(243, 103, 126);
+    font-weight: bold;
+}
+nav a:hover{
+    border-bottom: 2px solid lightgray;
+    color:lightgray;
+}
+
+
+/* styling front page */
+.frontPage{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.imageContainer{
+    position: relative;
+    display: inline-block;
+}
+.nuy{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin-left: 60px;
+    margin-top: 80px;
+    border-radius: 200px;
+}
+@media only screen and (max-width:400px){
+    .nuy{
+        margin:70px auto 0;
+    }
+    .name{
+        margin-top: 0px;
+    }
+}
+.info{
+    display: inline-block;
+    margin-top: 80px;
+    max-width: 600px;
+    vertical-align: top;
+}
+.info p{
+    line-height: 2em;
+}
+/* styling skill section */
+.skills{
+    max-width: 1000px;
+    width: 100%;
+    margin:90px auto;
+}
+.skill{
+    vertical-align: top;
+    display: inline-block;
+    max-width: 450px;
+    width: 90%;
+    margin: 5px;
+    padding:13px;
+    border-radius: 20px;
+    transition: background-color 0.5s;
+    border: 4px solid rgba(255, 255, 255,0.1);
+}
+.skill:hover{
+    border:4px solid rgba(219, 212, 212, 0.4);
+}
+.lists{
+    transition: height 0.3s;
+    height: 0;
+    overflow: hidden;
+}
+.icons{
+    display: inline-block;
+    width: 20%;
+}
+.icons2{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+.icons3{
+    display: inline-block;
+    width: 10%;
+    vertical-align: top;
+}
+.icons3 div{
+    height: 20px;
+    margin:15px;
+}
+.Measure{
+    padding: 1px;
+    border:1px solid white;
+    border-radius: 10px;
+    height: 8px;
+    margin:23px 3px;
+}
+.Percent{
+    height: 8px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.nintyFiveP{
+    width: 95%;
+}
+.nintyP{
+    width: 90%;
+}
+.EightyFiveP{
+    width: 85%;
+}
+
+.showBlock{
+    height: 160px;
+    display:block;
+}
+.art{
+    display:block;
+    width: 100px;
+    height: 100px;
+    margin:0 auto;
+}
+.title{
+    text-align: center;
+}
+.fa-sharp{
+    color:rgba(255, 255, 255,0.7);
+    /* font-size: small; */
+    display: block;
+    padding:5px 15px;
+    margin:0 45%;
+}
+.fa-sharp:hover{
+    color:rgba(255, 255, 255,0.8);
+
+}
+@media only screen and (max-width: 400px) {
+    #name{
+        display: inline-block;
+        max-width: 90%;
+        margin-top: 40px;
+        font-weight: 600;
+        font-size: x-large;
+    }
+    .skill{
+        width: 90%;
+        margin: 0 auto 10px;
+    }
+  }
+  @media only screen and (max-width:390px){
+    nav{
+        display: none;
+    }
+  }
+
+  /* Styling Contacts */
+.contactsContainer{
+
+    background-color: rgb(16, 36, 58);
+}
+.contacts{
+    max-width: 600px;
+    margin:5px auto;
+    padding:30px 0;
+   }
+.contacts>div{
+    display: inline-block;
+    padding:0 15px;
+    vertical-align: top;
+}
+.email div,.phone div{
+    display: inline-block;
+    margin-bottom:10px;
+    vertical-align: top;
+}
+.phone-icon,.email-icon{
+    margin:0 10px 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.social{
+    padding:5px 5px;
+    width: 40px;
+    height: 35px;
+}
+@media only screen and (max-width:400px) {
+    .phone-icon,.email-icon{
+        width: 25px;
+        height: 25px;
+        margin:0px 8px 5px;
+    }
+    .social{
+        width: 25px;
+        height: 25px;
+    }
+    .contacts{
+        padding:30px 10px;
+    }
+}
+.phoneT,.emailT{
+    display: inline-block;
+    padding-bottom: 6px;
+}
+.contacts h3,.gmap_canvas h3{
+    color:white;
+}
+/* Responsive mobile navigation container */
+.extend{
+    position: fixed;
+    text-align: right;
+    width: 0px;
+    overflow: hidden;
+    transition: width 0.1s;
+    height: 45px;
+    display: none;
+    right: 0;
+    font-size: xx-large;
+    border-radius: 10px;
+    padding:5px 0;
+}
+.linkContainer{
+    z-index: 1;
+    display: none;
+    position: fixed;
+    transition: width 0.4s;
+    width: 0;
+    height: 100vh;
+    overflow: hidden;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.linkContainer p{
+    padding-left: 20px;
+}
+.linkContainer a{
+    text-decoration: none;
+}
+.cancel{
+    color:white;
+    color:white;
+    font-size: x-large;
+    padding-right: 19px;
+    text-align: right;
+}
+@media only screen and (max-width: 400px) {
+    .extend{
+        display: block;
+        padding-right:19px;
+        width: 60px;
+    }
+    .collapse{
+        display: none;
+        width: 0;
+    }
+    .linkContainer{
+        display: block;
+    }
+    .showDropDown{
+        width: 50%;
+        height: 60h;
+    }
+  }
+/* Balls styling  */
+.balls{
+    position: relative;
+    transition: left 2s,top 2s;
+    height: 50px;
+    text-align: center;
+}
+.balls img{
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    transition: height 1s,width 1s;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width:430px){
+    .balls{
+        width: 90%;
+    }
+}
+/*  projects styling  */
+.video{
+    width: 360px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+}
+.videoContainer{
+    padding:10px 10px 0;
+    border-radius: 20px;
+    margin:20px;
+}
+.videoContainer:hover{
+    background-color: rgba(255, 255, 255,0.05);
+}
+.videoContainer a{
+    display: block;
+    width: 30%;
+    color:rgb(243, 103, 126);
+    margin: 10px;
+    text-decoration: none;
+    box-shadow: 0 0 3px rgb(243, 103, 126);;
+    transition: color 0.2s , background-color 0.2s;
+    text-align: center;
+    border:none;
+    padding:3px 7px;
+    border-radius: 10px;
+}
+.videoContainer a:hover{
+    color:lightgray;
+    border: 1px solid rgb(243, 103, 126);
+    box-shadow: 0 0 6px rgb(243, 103, 126);
+}
+#projects{
+    max-width: 1000px;
+    width: 100%;
+    margin:30px auto;
+}
+@media only screen and (max-width:500px){
+    #projects{
+        height: 500px;
+        overflow-y:auto;
+    }
+    .videoContainer{
+        width: 90%;
+    }
+    .video{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:380px){
+    .videoContainer{
+        width: 90%;
+    }
+    .video{
+        width: 100%;
+    }
+}
+
+/* testimonial  */
+.testimonial{
+    text-align: center;
+    max-width: 1100px;
+    margin: 50px auto;
+}
+.testimony{
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    height: 350px;
+    border:4px solid rgba(255, 255, 255,0.2);
+    padding: 10px;
+    margin:20px;
+    border-radius: 20px;
+    transition: background-color 0.5s;
+}
+.testimony:hover{
+    border:4px solid rgba(219, 212, 212, 0.4)
+}
+.testimony img{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    border-radius: 60px;
+}
+.testimony h2,.testimony h3{
+    color: rgb(196, 194, 194);
+}
+.testimony h3{
+    color:rgb(173, 170, 170);
+}
+.testimony p{
+    text-align: center;
+}
+.testimonialMobileContainer{
+    display: none;
+}
+@media only screen and (max-width:400px){
+    .testimonial{
+        display: none;
+    }
+    .testimony{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .testimonialMobileContainer{
+        text-align: center;
+        display: block;
+        border-radius: 20px;
+        margin: 30px auto 100px;
+    }
+    .testimonyChanger{
+        display: inline-block;
+        color:orange;
+        padding:10px 40px;
+        margin-bottom: 6px;
+        border-radius: 5px;
+        box-shadow: 0 0 6px orange;
+        border:1px solid orange;
+    }
+}
