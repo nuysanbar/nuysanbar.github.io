@@ -3,7 +3,7 @@ body{
     padding:0;
     background-color: rgb(2, 16, 24);
     font-family: 'Roboto Condensed', sans-serif;
-    color: rgb(248, 207, 131);
+    /* color: rgb(248, 207, 131); */
     color:rgb(243, 103, 126);
     font-size: large;
 }
@@ -96,6 +96,7 @@ nav a:hover{
 .skills{
     max-width: 1000px;
     width: 100%;
+    text-align: center;
     margin:90px auto;
 }
 .skill{
@@ -144,7 +145,7 @@ nav a:hover{
 }
 .Percent{
     height: 8px;
-    background-color: lightgray;
+    background-image: linear-gradient(to right, rgb(2, 16, 24),rgb(248, 56, 88));
     border-radius: 10px;
 }
 .nintyFiveP{
@@ -172,10 +173,10 @@ nav a:hover{
 }
 .fa-sharp{
     color:rgba(255, 255, 255,0.7);
-    /* font-size: small; */
+    font-size: small;
     display: block;
     padding:5px 15px;
-    margin:0 45%;
+    margin:0 40%;
 }
 .fa-sharp:hover{
     color:rgba(255, 255, 255,0.8);
@@ -202,7 +203,6 @@ nav a:hover{
 
   /* Styling Contacts */
 .contactsContainer{
-
     background-color: rgb(16, 36, 58);
 }
 .contacts{
@@ -331,36 +331,62 @@ nav a:hover{
 }
 /*  projects styling  */
 .video{
+    position: relative;
+    left: 0;
+    top: 0;
     width: 360px;
     height: 200px;
+    transition:width 1s,height 1s, left 1s, top 1s;
     border: none;
+    border-radius: 7px;
+}
+.video:hover{
+    left: -20px;
+    top:-20px;
+    width: 400px;
+    height: 220px;
+}
+.projectContainer{
+    margin:20px;
     border-radius: 10px;
+    padding: 5px;
+}
+.projectContainer:hover{
+    box-shadow: 0 0 5px gray;
 }
 .videoContainer{
-    padding:10px 10px 0;
-    border-radius: 20px;
-    margin:20px;
+    width: 360px;
+    height: 200px;
+    overflow: hidden;
 }
-.videoContainer:hover{
-    background-color: rgba(255, 255, 255,0.05);
+.projectContainer > div{
+    display: inline-block;
 }
-.videoContainer a{
+.projectDescription{
+    vertical-align: top;
+    text-align: center;
+    padding-left: 20px;
+    width: 57%;
+}
+.projectDescription p{
+    color:lightgray;
+    min-height: 100px;
+}
+.projectDescription a{
     display: block;
-    width: 30%;
-    color:rgb(243, 103, 126);
-    margin: 10px;
+    width: 40%;
+    margin: 0 auto;
+    background-color:rgb(75, 16, 26);
+    color:lightgray;
     text-decoration: none;
-    box-shadow: 0 0 3px rgb(243, 103, 126);;
-    transition: color 0.2s , background-color 0.2s;
+    transition:  background-color 0.2s;
     text-align: center;
     border:none;
     padding:3px 7px;
     border-radius: 10px;
 }
-.videoContainer a:hover{
-    color:lightgray;
-    border: 1px solid rgb(243, 103, 126);
-    box-shadow: 0 0 6px rgb(243, 103, 126);
+.projectDescription a:hover{
+    background-color: brown;
 }
 #projects{
     max-width: 1000px;
@@ -415,10 +441,7 @@ nav a:hover{
     border-radius: 60px;
 }
 .testimony h2,.testimony h3{
-    color: rgb(196, 194, 194);
-}
-.testimony h3{
-    color:rgb(173, 170, 170);
+    color: lightgray;
 }
 .testimony p{
     text-align: center;
@@ -442,11 +465,8 @@ nav a:hover{
     }
     .testimonyChanger{
         display: inline-block;
-        color:orange;
         padding:10px 40px;
         margin-bottom: 6px;
         border-radius: 5px;
-        box-shadow: 0 0 6px orange;
-        border:1px solid orange;
     }
 }

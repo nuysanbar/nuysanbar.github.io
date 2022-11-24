@@ -20,9 +20,15 @@ const iterate=setInterval(()=>animateText(nameObject,nameletters),70);
 var text=``;
 function addProject(){
     data.forEach((video)=>{
-        text+=`<div class='videoContainer'>
-        <iframe class='video' src="${video.link}" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        text+=`<div class='projectContainer'>
+                <div class='videoContainer'>
+                <iframe class='video' src="${video.link}" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class='projectDescription'><p> i quam. Animi cum ab at esse, deserunt dicta et corrupti error mollitia debitis nostrum iure beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sit eligendi nostrum? 
+                </p>
                 <a href='https://github.com/nuysanbar?tab=repositories'>code</a>
+                </div>
+                
              </div>`
     })
     projects.innerHTML=text;
@@ -39,9 +45,9 @@ function displayBlock(event){
     let curren=event.currentTarget.children[3];
     choosen.classList.toggle("showBlock");
     if(choosen.classList.value.includes("showBlock")){
-        curren.innerHTML="<i class=\"fa-sharp fa-solid fa-chevron-up\"></i>";
+        curren.innerHTML='<i class="fa-sharp">showLess</i> ';
     }else{
-        curren.innerHTML="<i class=\"fa-sharp fa-solid fa-chevron-down\"></i>";
+        curren.innerHTML='<i class="fa-sharp">...showmore</i> ';
     }
 }
 
