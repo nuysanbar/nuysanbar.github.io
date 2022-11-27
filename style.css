@@ -12,30 +12,20 @@ body{
   }
 /* Styling navigation */
 .bachelor{
+    display: flex;
     color:white;
     font-family: 'Rubik Microbe', cursive;
+    background: -webkit-linear-gradient(45deg,aqua, red);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 .landingPage{
     background-image: url('background/coding-vs-programming-2.jpg');
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-color: white;
 }
 .insideLandingPage{
-    background-color: rgba(2, 16, 24,0.8);
-}
-@keyframes animateWelcome {
-    from{
-        color: rgb(248, 207, 131);
-    }
-    to{
-        color: none;
-    }
-}
-@media only screen and (max-width:700px){
-    .welcome{
-        display: none;
-    }
+    background-color: rgba(0, 0, 0,0.85);
 }
 #name{
     margin: 0;
@@ -45,11 +35,18 @@ body{
     font-weight: 600;
     font-size: xx-large;
     font-family: 'Rubik Microbe', cursive;
-    color:lightgray;
+    background: -webkit-linear-gradient(45deg,aqua, red);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 .services ,.projectsTitle{
     text-align: center;
-    color:white;
+    display: block;
+    width: 115px;
+    margin:20px auto;
+    background: -webkit-linear-gradient(45deg,aqua, red);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 nav{
     padding:20px 20px 10px 0px;
@@ -62,8 +59,8 @@ nav a {
     font-weight: bold;
 }
 nav a:hover{
-    border-bottom: 2px solid lightgray;
-    color:lightgray;
+    border-bottom: 2px solid rgb(67, 151, 151);
+    color:rgb(67, 151, 151);
 }
 
 
@@ -74,7 +71,7 @@ nav a:hover{
     margin: 0 auto;
     padding: 0 10px; 
     text-align: center;
-    padding-bottom: 120px;
+    padding-bottom: 50px;
 }
 .imageContainer{
     position: relative;
@@ -264,7 +261,9 @@ nav a:hover{
     padding-bottom: 6px;
 }
 .contacts h3,.gmap_canvas h3{
-    color:white;
+    background: -webkit-linear-gradient(45deg,aqua, red);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 /* Responsive mobile navigation container */
 .extend{
@@ -327,7 +326,7 @@ nav a:hover{
     position: relative;
     transition: left 2s,top 2s;
     height: 100px;
-    
+    margin:50px;
     text-align: center;
 }
 .balls img{
@@ -455,7 +454,9 @@ nav a:hover{
     border-radius: 60px;
 }
 .testimony h2,.testimony h3{
-    color: lightgray;
+    background: -webkit-linear-gradient(45deg,aqua, red);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 .testimony p{
     text-align: center;

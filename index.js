@@ -134,8 +134,8 @@ var testimonyIndex=0;
 testimonyData.forEach((testimony)=>{
     content+=`<div class="testimony">
             <img src="${testimony.src}" alt="nuy">
-            <h2>${testimony.name}</h2>
             <h3>${testimony.job}</h3>
+            <h2>${testimony.name}</h2>
             <p>${testimony.comment}</p>
         </div>`
 })
@@ -144,8 +144,8 @@ testimonialMobile.innerHTML=content;
 function testimonyIndexChanger(){
      testimonialMobile.innerHTML=`<div class="testimony">
         <img src="${testimonyData[testimonyIndex].src}" alt="nuy">
-        <h2>${testimonyData[testimonyIndex].name}</h2>
         <h3>${testimonyData[testimonyIndex].job}</h3>
+        <h2>${testimonyData[testimonyIndex].name}</h2>
         <p>${testimonyData[testimonyIndex].comment}</p>
     </div>`
     testimonyIndex++
