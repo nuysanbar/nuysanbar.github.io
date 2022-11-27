@@ -13,11 +13,8 @@ body{
 /* Styling navigation */
 .bachelor{
     display: flex;
-    color:white;
+    color:rgb(172, 172, 172);
     font-family: 'Rubik Microbe', cursive;
-    background: -webkit-linear-gradient(45deg,aqua, red);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
 }
 .landingPage{
     background-image: url('background/coding-vs-programming-2.jpg');
@@ -25,7 +22,7 @@ body{
     background-size: cover;
 }
 .insideLandingPage{
-    background-color: rgba(0, 0, 0,0.85);
+    background-color: rgba(0, 0, 0,0.8);
 }
 #name{
     margin: 0;
@@ -35,18 +32,14 @@ body{
     font-weight: 600;
     font-size: xx-large;
     font-family: 'Rubik Microbe', cursive;
-    background: -webkit-linear-gradient(45deg,aqua, red);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+    color:rgb(172, 172, 172);
 }
 .services ,.projectsTitle{
     text-align: center;
     display: block;
     width: 115px;
     margin:20px auto;
-    background: -webkit-linear-gradient(45deg,aqua, red);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+   color:rgb(172, 172, 172);
 }
 nav{
     padding:20px 20px 10px 0px;
@@ -59,8 +52,8 @@ nav a {
     font-weight: bold;
 }
 nav a:hover{
-    border-bottom: 2px solid rgb(67, 151, 151);
-    color:rgb(67, 151, 151);
+    border-bottom: 2px solid rgb(172, 172, 172);;
+    color:rgb(172, 172, 172);
 }
 
 
@@ -261,9 +254,7 @@ nav a:hover{
     padding-bottom: 6px;
 }
 .contacts h3,.gmap_canvas h3{
-    background: -webkit-linear-gradient(45deg,aqua, red);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+    color:rgb(172, 172, 172);
 }
 /* Responsive mobile navigation container */
 .extend{
@@ -382,7 +373,7 @@ nav a:hover{
     width: 57%;
 }
 .projectDescription p{
-    color:lightgray;
+    color:rgb(172, 172, 172);
     min-height: 100px;
 }
 .projectDescription a{
@@ -390,7 +381,7 @@ nav a:hover{
     width: 40%;
     margin: 0 auto;
     background-color:rgb(75, 16, 26);
-    color:lightgray;
+    color:rgb(172, 172, 172);
     text-decoration: none;
     transition:  background-color 0.2s;
     text-align: center;
@@ -454,9 +445,7 @@ nav a:hover{
     border-radius: 60px;
 }
 .testimony h2,.testimony h3{
-    background: -webkit-linear-gradient(45deg,aqua, red);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+    color:rgb(172, 172, 172);
 }
 .testimony p{
     text-align: center;
