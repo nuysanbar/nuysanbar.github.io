@@ -13,6 +13,16 @@ body{
 /* Styling navigation */
 .bachelor{
     color:white;
+    font-family: 'Rubik Microbe', cursive;
+}
+.landingPage{
+    background-image: url('background/coding-vs-programming-2.jpg');
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+.insideLandingPage{
+    background-color: rgba(2, 16, 24,0.8);
 }
 @keyframes animateWelcome {
     from{
@@ -34,6 +44,7 @@ body{
     max-width: 500px;
     font-weight: 600;
     font-size: xx-large;
+    font-family: 'Rubik Microbe', cursive;
     color:lightgray;
 }
 .services ,.projectsTitle{
@@ -45,7 +56,7 @@ nav{
     text-align:center;
 }
 nav a {
-    padding:10px 15px 5px 0;
+    padding:10px;
     text-decoration: none;
     color:rgb(243, 103, 126);
     font-weight: bold;
@@ -61,7 +72,9 @@ nav a:hover{
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 10px; 
+    text-align: center;
+    padding-bottom: 120px;
 }
 .imageContainer{
     position: relative;
@@ -84,6 +97,7 @@ nav a:hover{
     }
 }
 .info{
+    text-align: left;
     display: inline-block;
     margin-top: 80px;
     max-width: 600px;
@@ -312,13 +326,13 @@ nav a:hover{
 .balls{
     position: relative;
     transition: left 2s,top 2s;
-    height: 50px;
+    height: 100px;
+    
     text-align: center;
 }
 .balls img{
     width: 0px;
     height: 0px;
-    margin: 0px;
     transition: height 1s,width 1s;
     display: inline-block;
     vertical-align: middle;
