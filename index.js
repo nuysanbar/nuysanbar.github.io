@@ -47,7 +47,7 @@ function displayBlock(event){
     if(choosen.classList.value.includes("showBlock")){
         curren.innerHTML='<i class="fa-sharp">showLess</i> ';
     }else{
-        curren.innerHTML='<i class="fa-sharp">...showmore</i> ';
+        curren.innerHTML='<i class="fa-sharp">...showMore</i> ';
     }
 }
 
