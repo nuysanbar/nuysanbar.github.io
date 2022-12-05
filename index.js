@@ -24,9 +24,9 @@ function addProject(){
                 <div class='videoContainer'>
                 <iframe class='video' src="${video.link}" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class='projectDescription'><p> i quam. Animi cum ab at esse, deserunt dicta et corrupti error mollitia debitis nostrum iure beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sit eligendi nostrum? 
+                <div class='projectDescription'><p>${video.content}
                 </p>
-                <a href='https://github.com/nuysanbar?tab=repositories'>code</a>
+                <a href='https://github.com/nuysanbar?tab=repositories'> <span class="ProjectNumber">${video.id} </span>${video.description} CODE <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 
              </div>`
