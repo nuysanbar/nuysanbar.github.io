@@ -14,7 +14,9 @@ body{
 .bachelor{
     display: flex;
     color:rgb(201, 201, 201);
-    font-family: 'Rubik Microbe', cursive;
+}
+.audio{
+    color: gray;
 }
 .landingPage{
     background-image: url('background/programmer\ Wallpaper.jpg');
@@ -29,10 +31,9 @@ body{
     margin: 0;
     line-height: 2.6rem;
     display: inline-block;
-    max-width: 550px;
+    max-width: 450px;
     font-weight: 500;
     font-size: xx-large;
-    font-family: 'Rubik Microbe', cursive;
     color:rgb(201, 201, 201);
 }
 .services ,.projectsTitle{
