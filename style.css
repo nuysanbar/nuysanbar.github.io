@@ -17,6 +17,7 @@ body{
 }
 .audio{
     color: gray;
+    height:20px;
 }
 .landingPage{
     background-image: url('background/programmer\ Wallpaper.jpg');
