@@ -16,17 +16,17 @@ body{
     color:rgb(201, 201, 201);
 }
 .audio{
-    color: gray;
+    color: gr;
     height:20px;
 }
 .landingPage{
-    background-image: url('background/programmer\ Wallpaper.jpg');
+    background-image: url('background/programming 5.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
 }
 .insideLandingPage{
-    background-color: rgba(2, 16, 24,0.9);
+    background-color: rgba(2, 16, 24,0.85);
 }
 #name{
     margin: 0;
@@ -51,11 +51,12 @@ nav{
 nav a {
     padding:10px;
     text-decoration: none;
-    color:rgb(243, 103, 126);
+    /* color:rgb(243, 103, 126); */
+    color: rgb(248, 207, 131);
 }
 nav a:hover{
-    border-bottom: 2px solid rgb(172, 172, 172);;
-    color:rgb(172, 172, 172);
+    border-bottom: 2px solid rgb(194, 194, 194);;
+    color:rgba(226, 222, 222);
 }
 
 
@@ -78,6 +79,7 @@ nav a:hover{
     height: 300px;
     margin-left: 60px;
     margin-top: 60px;
+    margin-bottom: 200px;
     border-radius: 200px;
 }
 @media only screen and (max-width:400px){
@@ -92,7 +94,8 @@ nav a:hover{
     text-align: left;
     display: inline-block;
     margin-top: 80px;
-    max-width: 600px;
+    max-width: 608px;
+    /* font-size: 20px; */
     vertical-align: top;
 }
 .info p{
@@ -447,6 +450,7 @@ nav a:hover{
     display: inline-block;
     vertical-align: top;
     width: 300px;
+    color:rgb(172, 172, 172);
     height: 350px;
     background-color: rgb(255, 255, 255,0.05);
     padding: 10px;
@@ -455,7 +459,7 @@ nav a:hover{
     transition: background-color 0.5s;
 }
 .testimony:hover{
-    background-color: rgb(255, 255, 255,0.1);
+    background-color: rgb(255, 255, 255,0.01);
 }
 .testimony img{
     display: block;
@@ -464,7 +468,7 @@ nav a:hover{
     border-radius: 60px;
 }
 .testimony h2,.testimony h3{
-    color:rgb(172, 172, 172);
+    /* color:rgb(172, 172, 172); */
 }
 .testimony p{
     text-align: center;

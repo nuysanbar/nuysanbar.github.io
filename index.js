@@ -66,63 +66,63 @@ cancel.addEventListener('click',()=>{
 })
 
 // Balls animation
-const m=document.querySelector('.m');
-const e=document.querySelector('.e');
-const r=document.querySelector('.r');
-const n=document.querySelector('.n');
+// const m=document.querySelector('.m');
+// const e=document.querySelector('.e');
+// const r=document.querySelector('.r');
+// const n=document.querySelector('.n');
 
-const x=10;
-const y=10;
-m.style.width=`${x}`;
-m.classList.add('expanding')
-m.style.height=`${y}`;
-e.style.width=`${x+10}`;
-e.style.height=`${y+10}`;
-e.classList.add('expanding')
-r.style.width=`${x}`;
-r.style.height=`${y}`;
-r.classList.add('expanding')
-n.style.width=`${x+10}`;
-n.style.height=`${y+10}`;
-n.classList.add('expanding')
+// const x=10;
+// const y=10;
+// m.style.width=`${x}`;
+// m.classList.add('expanding')
+// m.style.height=`${y}`;
+// e.style.width=`${x+10}`;
+// e.style.height=`${y+10}`;
+// e.classList.add('expanding')
+// r.style.width=`${x}`;
+// r.style.height=`${y}`;
+// r.classList.add('expanding')
+// n.style.width=`${x+10}`;
+// n.style.height=`${y+10}`;
+// n.classList.add('expanding')
 
-function moveBalls(obj){
-    const widths=parseInt(obj.style.width.split('').slice(0,2).join(''));
-if(widths<=0){
-    obj.style.width=`${widths+5}`
-    obj.style.height=`${widths+5}`
-    obj.classList.toggle('expanding');
-}
-if(widths>60){
-    obj.style.width=`${widths-5}`;
-    obj.style.height=`${widths-5}`;
-    obj.classList.toggle('expanding');
-}else{
-    if(obj.classList.value.includes('expanding')){
-       obj.style.width=`${(widths)+5}`
-       obj.style.height=`${(widths)+5}`
-    }else{
-       obj.style.width=`${widths-5}`;
-       obj.style.height=`${widths-5}`;
-    }
-}
-}
-function moveN(){
-    moveBalls(n)
-}
-function moveM(){
-    moveBalls(m)
-}
-function moveE(){
-    moveBalls(e)
-}
-function moveR(){
-    moveBalls(r)
-}
-setInterval(moveN,150);
-setInterval(moveM,250);
-setInterval(moveE,100);
-setInterval(moveR,300)
+// function moveBalls(obj){
+//     const widths=parseInt(obj.style.width.split('').slice(0,2).join(''));
+// if(widths<=0){
+//     obj.style.width=`${widths+5}`
+//     obj.style.height=`${widths+5}`
+//     obj.classList.toggle('expanding');
+// }
+// if(widths>60){
+//     obj.style.width=`${widths-5}`;
+//     obj.style.height=`${widths-5}`;
+//     obj.classList.toggle('expanding');
+// }else{
+//     if(obj.classList.value.includes('expanding')){
+//        obj.style.width=`${(widths)+5}`
+//        obj.style.height=`${(widths)+5}`
+//     }else{
+//        obj.style.width=`${widths-5}`;
+//        obj.style.height=`${widths-5}`;
+//     }
+// }
+// }
+// function moveN(){
+//     moveBalls(n)
+// }
+// function moveM(){
+//     moveBalls(m)
+// }
+// function moveE(){
+//     moveBalls(e)
+// }
+// function moveR(){
+//     moveBalls(r)
+// }
+// setInterval(moveN,150);
+// setInterval(moveM,250);
+// setInterval(moveE,100);
+// setInterval(moveR,300)
 
 
 // testimonial 
