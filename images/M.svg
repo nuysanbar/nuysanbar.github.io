@@ -5,15 +5,15 @@
 <style type="text/css">
 	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
 	.st1{fill:url(#SVGID_1_);}
-	.st2{fill:#0600DF;}
+	.st2{fill: rgb(2, 16, 24);}
 	.st3{font-family:'CopperplateGothic-Bold';}
 	.st4{font-size:48px;}
 </style>
 <path class="st0" d="M-567.4-285.9"/>
 <radialGradient id="SVGID_1_" cx="685.5296" cy="1872.0352" r="141.839" fx="692.912" fy="1801.0504" gradientTransform="matrix(0.3474 0 0 0.3507 -188.153 -606.5227)" gradientUnits="userSpaceOnUse">
-	<stop  offset="0.1055" style="stop-color:#E9EC94"/>
-	<stop  offset="0.7151" style="stop-color:#129F49"/>
+	<stop  offset="0.1055" style="stop-color:white"/>
+	<stop  offset="0.7151" style="stop-color:rgb(252, 198, 99)"/>
 </radialGradient>
 <ellipse class="st1" cx="50" cy="50" rx="50" ry="49"/>
-<text transform="matrix(0.9907 0 0 1 29.4863 60.4092)" class="st2 st3 st4">m</text>
+<text transform="matrix(0.9907 0 0 1 29.4863 60.4092)" class="st2 st3 st4">M</text>
 </svg>
