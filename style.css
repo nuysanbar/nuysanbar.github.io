@@ -374,6 +374,7 @@ nav a:hover{
     display: inline-block;
 }
 .projectDescription{
+    display: block;
     vertical-align: top;
     text-align: center;
     padding-left: 20px;
@@ -419,22 +420,38 @@ nav a:hover{
 }
 @media only screen and (max-width:500px){
     #projects{
-        height: 860px;
+        height: 450px;
         overflow-y:auto;
     }
+    .balls{
+        margin:30px;
+    }
     .videoContainer{
-        width: 90%;
+        width: 100%;
+        padding:0;
+        margin:0;
+    }
+    .projectContainer{
+        height: 210px;
+        border:1px solid rgb(248, 217, 158);
+        padding:0;
+        padding-left: 5px;
+        margin:10px 1px;
+        overflow-y: hidden;
+
     }
     .video{
-        width: 100%;
+        width: 390px;
+        visibility:visible;
     }
     .projectDescription{
+        display: none;
         width: 90%;
     }
 }
 @media only screen and (max-width:380px){
     .videoContainer{
-        width: 90%;
+        width: 100%;
     }
     .video{
         width: 100%;

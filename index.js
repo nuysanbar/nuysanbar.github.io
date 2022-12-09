@@ -126,35 +126,35 @@ setInterval(moveR,300)
 
 
 // testimonial 
-import {testimonyData} from './testimonial.js';
-const testimonial=document.querySelector('.testimonial');
-const testimonialMobile=document.querySelector('.testimonialMobile');
-var content=``;
-var testimonyIndex=0;
-testimonyData.forEach((testimony)=>{
-    content+=`<div class="testimony">
-            <img src="${testimony.src}" alt="nuy">
-            <h3>${testimony.job}</h3>
-            <h2>${testimony.name}</h2>
-            <p>${testimony.comment}</p>
-        </div>`
-})
-testimonial.innerHTML=content;
-testimonialMobile.innerHTML=content;
-function testimonyIndexChanger(){
-     testimonialMobile.innerHTML=`<div class="testimony">
-        <img src="${testimonyData[testimonyIndex].src}" alt="nuy">
-        <h3>${testimonyData[testimonyIndex].job}</h3>
-        <h2>${testimonyData[testimonyIndex].name}</h2>
-        <p>${testimonyData[testimonyIndex].comment}</p>
-    </div>`
-    testimonyIndex++
-    if(testimonyIndex===testimonyData.length){
-        testimonyIndex=0
-    }
-}
-testimonyIndexChanger();
-const testimonyChanger=document.querySelector('.testimonyChanger');
-testimonyChanger.addEventListener('click',testimonyIndexChanger)
+// import {testimonyData} from './testimonial.js';
+// const testimonial=document.querySelector('.testimonial');
+// const testimonialMobile=document.querySelector('.testimonialMobile');
+// var content=``;
+// var testimonyIndex=0;
+// testimonyData.forEach((testimony)=>{
+//     content+=`<div class="testimony">
+//             <img src="${testimony.src}" alt="nuy">
+//             <h3>${testimony.job}</h3>
+//             <h2>${testimony.name}</h2>
+//             <p>${testimony.comment}</p>
+//         </div>`
+// })
+// testimonial.innerHTML=content;
+// testimonialMobile.innerHTML=content;
+// function testimonyIndexChanger(){
+//      testimonialMobile.innerHTML=`<div class="testimony">
+//         <img src="${testimonyData[testimonyIndex].src}" alt="nuy">
+//         <h3>${testimonyData[testimonyIndex].job}</h3>
+//         <h2>${testimonyData[testimonyIndex].name}</h2>
+//         <p>${testimonyData[testimonyIndex].comment}</p>
+//     </div>`
+//     testimonyIndex++
+//     if(testimonyIndex===testimonyData.length){
+//         testimonyIndex=0
+//     }
+// }
+// testimonyIndexChanger();
+// const testimonyChanger=document.querySelector('.testimonyChanger');
+// testimonyChanger.addEventListener('click',testimonyIndexChanger)
 
 
