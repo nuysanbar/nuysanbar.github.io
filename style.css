@@ -10,14 +10,9 @@ body{
     scroll-behavior: smooth;
   }
 /* Styling navigation */
-.bachelor{
-    display: flex;
-    color:rgb(201, 201, 201);
-    font-weight: bold;
-}
 .audio{
     color: gr;
-    height:25px;
+    height:30px;
 }
 .landingPage{
     background-image: url('background/programming 5.jpg');
@@ -95,12 +90,13 @@ nav a:hover{
     text-align: left;
     display: inline-block;
     margin-top: 80px;
-    max-width: 608px;
+    max-width: 570px;
     /* font-size: 20px; */
     vertical-align: top;
 }
 .info p{
     line-height: 2em;
+    color:lightgray;
 }
 /* styling skill section */
 .skills{
