@@ -47,7 +47,7 @@ nav{
 nav a {
     padding:10px;
     text-decoration: none;
-    /* color:rgb(243, 103, 126); */
+    font-weight: bold;
     color: rgb(248, 207, 131);
 }
 nav a:hover{
