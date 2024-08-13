@@ -33,7 +33,7 @@ function addProject(){
     })
     projects.innerHTML=text;
 }
-//projects.addEventListener('onload',addProject())
+projects.addEventListener('onload',addProject())
 
 // For displaying the skills hidden description
 const skill=document.querySelectorAll('.skill');
