@@ -1,1 +1,9 @@
-
+const data=[
+    {
+        id:1,
+        link:"https://www.youtube.com/embed/iCRd4o8b7kE",
+        description:"Project Management System ",
+        content:"Stock market real time graph analysis does take companies equity symbol(related to the company name) as input and draws graph  from alpha vantage real time stock exchange api. I developed this using react"
+    },
+]
+export {data};
