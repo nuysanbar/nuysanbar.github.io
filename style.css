@@ -15,13 +15,14 @@ body{
     height:30px;
 }
 .landingPage{
-    background-image: url('background/programming 5.jpg');
+    background-image: url('background/latest.gif');
     background-repeat: no-repeat;
-    background-size:cover;
+    /* background-size:1100px 700px; */
+    /* background-size:cover; */
     background-attachment: fixed;
 }
 .insideLandingPage{
-    background-color: rgba(2, 16, 24,0.7);
+    /* background-color: rgba(2, 16, 24,0.); */
 }
 #name{
     margin: 0;
@@ -30,19 +31,22 @@ body{
     max-width: 450px;
     font-weight: bold;
     font-size: xx-large;
-    color:rgb(201, 201, 201);
+    /* color:rgb(201, 201, 201); */
+    color:white;
 }
 .services ,.projectsTitle{
     text-align: center;
     display: block;
     width: 115px;
     margin:20px auto;
-   color:rgb(172, 172, 172);
+   /* color:rgb(172, 172, 172); */
+   color:white;
 }
 nav{
     padding:20px 20px 10px 0px;
     text-align:center;
-    color:lightgray;
+    /* color:lightgray; */
+    color:white;
 }
 nav a {
     padding:10px;
@@ -51,17 +55,19 @@ nav a {
     color: rgb(248, 207, 131);
 }
 nav a:hover{
-    border-bottom: 2px solid rgb(194, 194, 194);;
-    color:rgba(226, 222, 222);
+    /* border-bottom: 2px solid rgb(194, 194, 194); */
+    /* color:rgba(226, 222, 222); */
+    color:white;
+    border-bottom: 2px solid white;
 }
 
 
 /* styling front page */
 .frontPage{
     width: 100%;
-    max-width: 1000px;
+    /* max-width: 1000px; */
     margin: 0 auto;
-    padding: 0 10px; 
+    /* padding: 0 10px;  */
     text-align: center;
     padding-bottom: 30px;
     font-size: 16px;
@@ -73,10 +79,10 @@ nav a:hover{
 .nuy{
     display: inline-block;
     width: 300px;
-    height: 300px;
+    height: 350px;
     margin-left: 40px;
-    margin-top: 70px;
-    border-radius: 200px;
+    margin-top: 50px;
+    border-radius: 50px;
 }
 @media only screen and (max-width:400px){
     .nuy{
@@ -96,7 +102,8 @@ nav a:hover{
 }
 .info p{
     line-height: 2em;
-    color:lightgray;
+    /* color:lightgray; */
+    color:white;
 }
 /* styling skill section */
 .skills{
@@ -117,7 +124,7 @@ nav a:hover{
     border: 4px solid rgba(255, 255, 255,0.1);
 }
 .skill:hover{
-    border:4px solid rgba(219, 212, 212, 0.4);
+    border:4px solid rgba(219, 212, 212);
 }
 .lists{
     transition: height 0.3s;
@@ -178,7 +185,7 @@ nav a:hover{
     text-align: center;
 }
 .fa-sharp{
-    color:rgba(255, 255, 255,0.7);
+    color:rgba(255, 255, 255);
     font-size: small;
     display: block;
     padding:5px 15px;
@@ -256,7 +263,8 @@ nav a:hover{
     padding-bottom: 6px;
 }
 .contacts h3,.gmap_canvas h3{
-    color:rgb(172, 172, 172);
+    /* color:rgb(172, 172, 172); */
+    color:white;
 }
 /* Responsive mobile navigation container */
 .extend{
@@ -355,7 +363,7 @@ nav a:hover{
     width: 400px;
     height: 220px;
 }
-.projectContainer{
+.projects{
     margin:20px;
     border-radius: 10px;
     padding: 5px;
@@ -368,19 +376,24 @@ nav a:hover{
     height: 200px;
     overflow: hidden;
 }
-.projectContainer > div{
+.projects>div{
     display: inline-block;
 }
-.projectDescription{
+.projectContainer{
     display: block;
     vertical-align: top;
-    text-align: center;
-    padding-left: 20px;
-    width: 57%;
+    /* text-align: center; */
+    min-width: 330px;
+    width: 45%;
+    background-color: rgb(255, 255, 255,0.3);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
 }
 .projectDescription p{
-    color:rgb(172, 172, 172);
-    /* min-height: 100px; */
+    /* color:rgb(172, 172, 172); */
+    color:white;
+    height: 150px;
 }
 .projectNumber{
     position: absolute;
@@ -396,8 +409,8 @@ nav a:hover{
 .projectDescription a{
     position: relative;
     display: block;
-    width: 90%;
-    margin: 0 auto;
+    width: 95%;
+    /* margin: 0 auto; */
     background-color:rgb(252, 198, 99);
     color:black;
     text-decoration: none;
@@ -410,10 +423,7 @@ nav a:hover{
     background-color: rgb(248, 217, 158);
 }
 #projects{
-    max-width: 1000px;
-    height: 730px;
-    overflow-y: scroll;
-    width: 100%;
+    max-width: 1100px;
     margin:30px auto 60px;
 }
 @media only screen and (max-width:500px){
@@ -465,10 +475,10 @@ nav a:hover{
 .testimony{
     display: inline-block;
     vertical-align: top;
-    width: 300px;
-    color:rgb(172, 172, 172);
-    height: 350px;
-    background-color: rgb(255, 255, 255,0.05);
+    width: 400px;
+    /* color:rgb(172, 172, 172); */
+    color:white;
+    background-color: rgb(255, 255, 255,0.3);
     padding: 10px;
     margin:20px;
     border-radius: 20px;

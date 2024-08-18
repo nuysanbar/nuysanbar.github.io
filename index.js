@@ -1,12 +1,13 @@
 // to display projects section from '
 
 import {data} from  './projectData.js';
+import { ModifiedData } from './modifiedProjectData.js';
 const projects=document.getElementById('projects');
 const next=document.querySelector('.next');
 
 // Animating name and job text 
 const nameObject=document.querySelector('#name');
-var nameletters="Hi, my name is Nusanbar and I'm a Full-Stack Developer".split('');
+var nameletters="Hello, I am Nusanbar and I'm a FullStack Developer".split('');
 var index=0;
 function animateText(toBeFilled,fillers){
     toBeFilled.innerHTML+=`<span class="letter">${fillers[index]}</span>`;
@@ -19,16 +20,13 @@ function animateText(toBeFilled,fillers){
 const iterate=setInterval(()=>animateText(nameObject,nameletters),70);
 var text=``;
 function addProject(){
-    data.forEach((video)=>{
+    ModifiedData.forEach((video)=>{
         text+=`<div class='projectContainer'>
-                <div class='videoContainer'>
-                <iframe class='video' src="${video.link}" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class='projectDescription'><p>${video.content}
-                </p>
+                <div class='projectDescription'>
+                <h2>${video.description}</h2>
+                <p>${video.content}</p>
                 <a href='https://github.com/nuysanbar?tab=repositories'> <span class="ProjectNumber">${video.id} </span>${video.description} CODE <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
-                
              </div>`
     })
     projects.innerHTML=text;
@@ -126,35 +124,35 @@ setInterval(moveR,300)
 
 
 // testimonial 
-// import {testimonyData} from './testimonial.js';
-// const testimonial=document.querySelector('.testimonial');
-// const testimonialMobile=document.querySelector('.testimonialMobile');
-// var content=``;
-// var testimonyIndex=0;
-// testimonyData.forEach((testimony)=>{
-//     content+=`<div class="testimony">
-//             <img src="${testimony.src}" alt="nuy">
-//             <h3>${testimony.job}</h3>
-//             <h2>${testimony.name}</h2>
-//             <p>${testimony.comment}</p>
-//         </div>`
-// })
-// testimonial.innerHTML=content;
-// testimonialMobile.innerHTML=content;
-// function testimonyIndexChanger(){
-//      testimonialMobile.innerHTML=`<div class="testimony">
-//         <img src="${testimonyData[testimonyIndex].src}" alt="nuy">
-//         <h3>${testimonyData[testimonyIndex].job}</h3>
-//         <h2>${testimonyData[testimonyIndex].name}</h2>
-//         <p>${testimonyData[testimonyIndex].comment}</p>
-//     </div>`
-//     testimonyIndex++
-//     if(testimonyIndex===testimonyData.length){
-//         testimonyIndex=0
-//     }
-// }
-// testimonyIndexChanger();
-// const testimonyChanger=document.querySelector('.testimonyChanger');
-// testimonyChanger.addEventListener('click',testimonyIndexChanger)
+import {testimonyData} from './testimonial.js';
+const testimonial=document.querySelector('.testimonial');
+const testimonialMobile=document.querySelector('.testimonialMobile');
+var content=``;
+var testimonyIndex=0;
+testimonyData.forEach((testimony)=>{
+    content+=`<div class="testimony">
+            <img src="${testimony.src}" alt="nuy">
+            <h3>${testimony.job}</h3>
+            <h2>${testimony.name}</h2>
+            <p>${testimony.comment}</p>
+        </div>`
+})
+testimonial.innerHTML=content;
+testimonialMobile.innerHTML=content;
+function testimonyIndexChanger(){
+     testimonialMobile.innerHTML=`<div class="testimony">
+        <img src="${testimonyData[testimonyIndex].src}" alt="nuy">
+        <h3>${testimonyData[testimonyIndex].job}</h3>
+        <h2>${testimonyData[testimonyIndex].name}</h2>
+        <p>${testimonyData[testimonyIndex].comment}</p>
+    </div>`
+    testimonyIndex++
+    if(testimonyIndex===testimonyData.length){
+        testimonyIndex=0
+    }
+}
+testimonyIndexChanger();
+const testimonyChanger=document.querySelector('.testimonyChanger');
+testimonyChanger.addEventListener('click',testimonyIndexChanger)
 
 

@@ -1,15 +1,9 @@
 const testimonyData =[
     {
-        name:'Micheal Taye',
-        job:'Intern supvr',
-        src:'./OriginalImages/micheal.jpg',
-        comment:'Creative and hard worker. Usually when I tell him to develop features even if he got stuck, he worked really hard overtime day and night to come up with amazing work '
-    },
-    {
-        name:'Betelhem Tilahun',
-        job:'Senior SE',
-        src:'./OriginalImages/Betelhem.jpg',
-        comment:'Works well with a team. Geeky  with software engineering and  mathematics. Great attention to details. Introverted with a good sense of homour.'
+        name:'Raji A.Mamade',
+        job:'PhD candidate in Theoretical Physics at <strong>MIT</strong>',
+        src:'./OriginalImages/raji ash.jpg',
+        comment:'I’m thrilled to recommend Nuysanbar, who has been my best friend for over a decade. His creativity and exceptional work ethic consistently impress me. With our similar backgrounds, I’ve seen firsthand how he tackles challenges with innovative solutions and dedication. Nuysanbar is reliable, inspiring, and an asset to any team. I am confident he will excel in any opportunity '
     }
 ]
 export {testimonyData};
