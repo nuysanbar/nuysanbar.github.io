@@ -7,7 +7,7 @@ const next=document.querySelector('.next');
 
 // Animating name and job text 
 const nameObject=document.querySelector('#name');
-var nameletters="Hello, I am Nusanbar and I'm a FullStack Developer".split('');
+var nameletters="Hello, I am Nusanbar and I'm a Software Developer".split('');
 var index=0;
 function animateText(toBeFilled,fillers){
     toBeFilled.innerHTML+=`<span class="letter">${fillers[index]}</span>`;
@@ -133,8 +133,10 @@ testimonyData.forEach((testimony)=>{
     content+=`<div class="testimony">
             <img src="${testimony.src}" alt="nuy">
             <h3>${testimony.job}</h3>
-            <h2>${testimony.name}</h2>
+            <h2 style="color:rgb(248, 217, 158)">${testimony.name}</h2>
             <p>${testimony.comment}</p>
+            <a href="https://www.facebook.com/rajimamade"><img class="social" src="./OriginalImages/facebook logo.jpg" alt="ft"></a>
+            <a href="#"><img class="social" src="./OriginalImages/linkedin logo.jpg" alt="lt"></a>
         </div>`
 })
 testimonial.innerHTML=content;
