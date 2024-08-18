@@ -22,7 +22,7 @@ body{
     background-attachment: fixed;
 }
 .insideLandingPage{
-    /* background-color: rgba(2, 16, 24,0.); */
+    background-color: black;
 }
 #name{
     margin: 0;
@@ -385,8 +385,8 @@ nav a:hover{
     display: block;
     vertical-align: top;
     min-width: 300px;
-    width: 45%;
-    background-color: rgb(255, 255, 255,0.3);
+    width: 42%;
+    background-color: rgb(255, 255, 255,0.15);
     margin: 10px;
     padding: 10px;
     border-radius: 20px;
@@ -459,7 +459,7 @@ nav a:hover{
     width: 400px;
     /* color:rgb(172, 172, 172); */
     color:white;
-    background-color: rgb(255, 255, 255,0.3);
+    background-color: rgb(255, 255, 255,0.15);
     padding: 10px;
     margin:20px;
     border-radius: 20px;
