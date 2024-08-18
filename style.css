@@ -1,8 +1,7 @@
 body{
     margin:0;
     padding:0;
-    background-color: rgb(2, 16, 24);
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     font-family: 'Roboto Condensed', sans-serif;
     color: rgb(248, 207, 131);
     font-size: large;
@@ -21,6 +20,9 @@ body{
     /* background-size:1100px 700px; */
     /* background-size:cover; */
     background-attachment: fixed;
+}
+.insideLandingPage{
+    background-color: rgb(0,0,0,0.1);
 }
 #name{
     margin: 0;
