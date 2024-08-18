@@ -145,7 +145,7 @@ function testimonyIndexChanger(){
      testimonialMobile.innerHTML=`<div class="testimony">
         <img src="${testimonyData[testimonyIndex].src}" alt="nuy">
         <h3>${testimonyData[testimonyIndex].job}</h3>
-        <h2>${testimonyData[testimonyIndex].name}</h2>
+        <h2 style="color:rgb(248, 217, 158)">${testimonyData[testimonyIndex].name}</h2>
         <p>${testimonyData[testimonyIndex].comment}</p>
         <a href="https://www.facebook.com/rajimamade"><img class="social" src="./OriginalImages/facebook logo.jpg" alt="ft"></a>
         <a href="#"><img class="social" src="./OriginalImages/linkedin logo.jpg" alt="lt"></a>

@@ -14,7 +14,7 @@ const ModifiedData=[
     {
         id:3,
         link:"https://www.youtube.com/embed/iCRd4o8b7kE",
-        description:"Live Stock Market line chart",
+        description:"Real time Stock Market line chart",
         content:"  a live line chart displays real-time stock price movements. It shows the stock's price over time, continuously updating to reflect the latest market data. This helps users track price trends and make timely investment decisions based on current market conditions."
     }
 ]
