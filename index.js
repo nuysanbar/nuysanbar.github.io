@@ -147,6 +147,8 @@ function testimonyIndexChanger(){
         <h3>${testimonyData[testimonyIndex].job}</h3>
         <h2>${testimonyData[testimonyIndex].name}</h2>
         <p>${testimonyData[testimonyIndex].comment}</p>
+        <a href="https://www.facebook.com/rajimamade"><img class="social" src="./OriginalImages/facebook logo.jpg" alt="ft"></a>
+        <a href="#"><img class="social" src="./OriginalImages/linkedin logo.jpg" alt="lt"></a>
     </div>`
     testimonyIndex++
     if(testimonyIndex===testimonyData.length){
