@@ -384,7 +384,7 @@ nav a:hover{
 .projectContainer{
     display: block;
     vertical-align: top;
-    min-width: 330px;
+    min-width: 300px;
     width: 45%;
     background-color: rgb(255, 255, 255,0.3);
     margin: 10px;
