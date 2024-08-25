@@ -25,7 +25,7 @@ function addProject(){
                 <div class='projectDescription'>
                 <h2>${video.description}</h2>
                 <p>${video.content}</p>
-                <a href='https://github.com/nuysanbar?tab=repositories'> <span class="ProjectNumber">${video.id} </span>${video.description} CODE <i class="fa-solid fa-arrow-right"></i></a>
+                <a href='https://github.com/nuysanbar?tab=repositories'> <span class="ProjectNumber">${video.id} </span>for source code click here<i class="fa-solid fa-arrow-right"></i></a>
                 </div>
              </div>`
     })
