@@ -136,7 +136,7 @@ testimonyData.forEach((testimony)=>{
             <h2 style="color:rgb(248, 217, 158)">${testimony.name}</h2>
             <p>${testimony.comment}</p>
             <a href="https://www.facebook.com/rajimamade"><img class="social" src="./OriginalImages/facebook logo.jpg" alt="ft"></a>
-            <a href="#"><img class="social" src="./OriginalImages/linkedin logo.jpg" alt="lt"></a>
+            <a href="https://www.linkedin.com/in/rajimamade/"><img class="social" src="./OriginalImages/linkedin logo.jpg" alt="lt"></a>
         </div>`
 })
 testimonial.innerHTML=content;
