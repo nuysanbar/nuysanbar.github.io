@@ -28,7 +28,7 @@ body{
     margin: 0;
     line-height: 2.6rem;
     display: inline-block;
-    max-width: 450px;
+    /* max-width: 450px; */
     font-weight: bold;
     font-size: xx-large;
     /* color:rgb(201, 201, 201); */
@@ -38,7 +38,7 @@ body{
     text-align: center;
     display: block;
     width: 115px;
-    margin:20px auto;
+    margin:60px auto;
    /* color:rgb(172, 172, 172); */
    color:white;
 }
@@ -96,7 +96,7 @@ nav a:hover{
     text-align: left;
     display: inline-block;
     margin-top: 80px;
-    max-width: 570px;
+    max-width: 650px;
     /* font-size: 20px; */
     vertical-align: top;
 }
@@ -369,11 +369,16 @@ nav a:hover{
 }
 .projectContainer{
     display: block;
+    width:400px;
     vertical-align: top;
-    background-color: rgb(255, 255, 255,0.15);
+    /* background-color: rgb(255, 255, 255,0.15); */
+    border: 4px solid rgba(255, 255, 255,0.1);
     margin: 10px;
     padding: 30px;
     border-radius: 20px;
+}
+.projectContainer:hover{
+    border:4px solid rgba(219, 212, 212);
 }
 .projectDescription p{
     /* color:rgb(172, 172, 172); */
@@ -411,12 +416,16 @@ nav a:hover{
 }
 @media only screen and (max-width:500px){
     #projects{
-        overflow-y:auto;
+        width: 100%;
+        margin: 0 auto 10px;
     }
     .balls{
         margin:30px;
     }
     .projectContainer{
+        width:370px;
+        margin-left: 0;
+        margin-right: 0;
         border:1px solid rgb(248, 217, 158);
     }
     .projectDescription a{
