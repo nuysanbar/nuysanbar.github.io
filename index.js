@@ -7,7 +7,7 @@ const next=document.querySelector('.next');
 
 // Animating name and job text 
 const nameObject=document.querySelector('#name');
-var nameletters="Hello, I am Nusanbar and I'm a Software Developer".split('');
+var nameletters="Hello, I'm Nusanbar, a Software Developer".split('');
 var index=0;
 function animateText(toBeFilled,fillers){
     toBeFilled.innerHTML+=`<span class="letter">${fillers[index]}</span>`;
