@@ -423,9 +423,7 @@ nav a:hover{
         margin:30px;
     }
     .projectContainer{
-        width:370px;
-        margin-left: 0;
-        margin-right: 0;
+        width:300px;
         border:1px solid rgb(248, 217, 158);
     }
     .projectDescription a{
