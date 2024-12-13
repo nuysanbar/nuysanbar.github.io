@@ -105,6 +105,7 @@ nav a:hover{
     /* color:lightgray; */
     color:white;
 /*     font-size: larger; */
+    font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /* styling skill section */
@@ -371,7 +372,6 @@ nav a:hover{
     display: block;
     width:400px;
     vertical-align: top;
-    /* background-color: rgb(255, 255, 255,0.15); */
     border: 4px solid rgba(255, 255, 255,0.1);
     margin: 10px;
     padding: 30px;
@@ -381,7 +381,6 @@ nav a:hover{
     border:4px solid rgba(219, 212, 212);
 }
 .projectDescription p{
-    /* color:rgb(172, 172, 172); */
     color:white;
 }
 .projectNumber{
@@ -398,17 +397,19 @@ nav a:hover{
 .projectDescription a{
     position: relative;
     display: block;
-    width: 95%;
+    width: 200px;
+    /* margin:0 auto; */
     background-color:rgb(252, 198, 99);
     color:black;
     text-decoration: none;
     transition:  background-color 0.2s;
     text-align: center;
+    border-radius: 10px;
     border:none;
     padding:3px 7px;
 }
 .projectDescription a:hover{
-    background-color: rgb(248, 217, 158);
+    background-color: rgb(253, 253, 253);
 }
 #projects{
     max-width: 1000px;
