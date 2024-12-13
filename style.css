@@ -354,7 +354,6 @@ nav a:hover{
     left: 0;
     top: 0;
     width: 360px;
-    height: 200px;
     transition:width 1s,height 1s, left 1s, top 1s;
     border: none;
     border-radius: 7px;
@@ -363,7 +362,6 @@ nav a:hover{
     left: -20px;
     top:-20px;
     width: 400px;
-    height: 220px;
 }
 .projects{
     margin:20px;
@@ -375,7 +373,6 @@ nav a:hover{
 }
 .videoContainer{
     width: 360px;
-    height: 200px;
     overflow: hidden;
 }
 .projects>div{
@@ -394,7 +391,6 @@ nav a:hover{
 .projectDescription p{
     /* color:rgb(172, 172, 172); */
     color:white;
-    height: 160px;
 }
 .projectNumber{
     position: absolute;
@@ -428,18 +424,13 @@ nav a:hover{
 }
 @media only screen and (max-width:500px){
     #projects{
-        height: 550px;
         overflow-y:auto;
     }
     .balls{
         margin:30px;
     }
     .projectContainer{
-        height: 400px;
         border:1px solid rgb(248, 217, 158);
-    }
-    .projectDescription p{
-        height: 230px;
     }
     .projectDescription a{
         font-size: smaller;
