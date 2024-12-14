@@ -17,7 +17,7 @@ function animateText(toBeFilled,fillers){
          index=0;
        }
 }
-const iterate=setInterval(()=>animateText(nameObject,nameletters),70);
+const iterate=setInterval(()=>animateText(nameObject,nameletters),75);
 var text=``;
 function addProject(){
     ModifiedData.forEach((video)=>{
